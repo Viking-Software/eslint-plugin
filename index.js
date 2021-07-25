@@ -172,7 +172,7 @@ module.exports = {
         'generator-star-spacing': ['error', { 'before': false, 'after': true }],
         'no-useless-rename': 'error',
         'no-var': 'error',
-        'object-shorthand': ['error', 'never'],
+        'object-shorthand': ['error', 'always'],
         'prefer-arrow-callback': 'error',
         'prefer-const': ['error', { 'destructuring': 'all' }],
         'prefer-destructuring': 'error',
