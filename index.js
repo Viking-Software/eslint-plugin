@@ -42,6 +42,7 @@ module.exports = {
         'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
         'react/react-in-jsx-scope': 'off',
         'react/jsx-indent': ['warn', 4],
+        'react/jsx-indent-props': [4, 4],
         'react/jsx-props-no-spreading': 'off',
         'react/prop-types': 'off',
         'react/no-unescaped-entities': 'off',
