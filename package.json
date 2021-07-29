@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-vikingsoftware",
-    "version": "1.1.23",
+    "version": "1.1.25",
     "description": "Viking Software's Standard Rules for ESLint",
     "main": "index.js",
     "repository": {
