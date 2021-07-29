@@ -6,7 +6,6 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:import/errors',
         'plugin:import/warnings',
-        'plugin:jsx-a11y/recommended',
         'plugin:react-hooks/recommended',
         'airbnb'
     ],
@@ -46,9 +45,6 @@ module.exports = {
         'react/jsx-props-no-spreading': 'off',
         'react/prop-types': 'off',
         'react/no-unescaped-entities': 'off',
-
-        // JSX
-        'jsx-a11y/anchor-is-valid': 'off',
 
         // Possible Errors
         'no-await-in-loop': 'error',
@@ -172,7 +168,7 @@ module.exports = {
         'generator-star-spacing': ['error', { 'before': false, 'after': true }],
         'no-useless-rename': 'error',
         'no-var': 'error',
-        'object-shorthand': ['error', 'never'],
+        'object-shorthand': ['error', 'always'],
         'prefer-arrow-callback': 'error',
         'prefer-const': ['error', { 'destructuring': 'all' }],
         'prefer-destructuring': 'error',
